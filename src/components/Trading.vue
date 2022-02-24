@@ -2,12 +2,12 @@
   <div>Ashish Garg</div>
   <!-- <div v-for="price in priceDetail" :key="price">{{ price["1. open"] }}</div> -->
   <div>{{ tradingYValues }}</div>
-  <GChart />
+  <!-- <GChart /> -->
 </template>
 
 <script>
 import "buefy/dist/buefy.css";
-import { GChart } from "vue-google-charts";
+// import { GChart } from "vue-google-charts";
 import axios from "axios";
 
 export default {
@@ -19,7 +19,7 @@ export default {
     };
   },
   components: {
-    GChart,
+    // GChart,
   },
   mounted() {
     this.setup()
